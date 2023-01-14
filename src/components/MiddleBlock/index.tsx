@@ -27,10 +27,11 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {button && (
-                <Button name="submit" onClick={() => scrollTo("mission")}>
-                  {t(button)}
+                <Button name="submit" >
+                  <a style={{color:"white"}} href="https://lu.ma/crackdsa" target="_blank">{t(button)}</a>
                 </Button>
               )}
+              
             </Col>
           </ContentWrapper>
         </Row>

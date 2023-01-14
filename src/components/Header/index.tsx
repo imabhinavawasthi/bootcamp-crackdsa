@@ -51,7 +51,7 @@ const Header = ({ t }: any) => {
           onClick={() => scrollTo("contact")}
         >
           <Span>
-            <Button>{t("Register Now")}</Button>
+            <a href="https://lu.ma/crackdsa" target="_blank"><Button>{t("Live Events")}</Button></a>
           </Span>
         </CustomNavLinkSmall>
       </>

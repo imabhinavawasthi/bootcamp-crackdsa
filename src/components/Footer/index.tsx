@@ -52,11 +52,11 @@ const Footer = ({ t }: any) => {
           <Row justify="space-between">
             <Col lg={12} md={12} sm={12} xs={12}>
               <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              {/* <Large to="/">{t("Tell us everything")}</Large> */}
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:abhinav@crackdsa.com">
+              <a target="_blank" href="https://wa.me/message/TPN76XLWVOWDB1">
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </Col>
@@ -145,27 +145,27 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="https://github.com/Adrinlol/create-react-app-adrinlol"
-                src="github.svg"
+                href="mailto:abhinav@crackdsa.com"
+                src="gmail.svg"
               />
               <SocialLink
-                href="https://twitter.com/Adrinlolx"
-                src="twitter.svg"
+                href="https://wa.me/message/TPN76XLWVOWDB1"
+                src="whatsapp.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/lasha-kakabadze/"
+                href="https://www.linkedin.com/in/abhinavawasthi01/"
                 src="linkedin.svg"
               />
               <SocialLink
-                href="https://medium.com/@lashakakabadze/"
-                src="medium.svg"
+                href="https://www.youtube.com/@AbhinavAwasthi"
+                src="youtube.svg"
               />
-              <a href="https://www.buymeacoffee.com/adrinlol">
+              {/* <a href="https://www.buymeacoffee.com/adrinlol">
                 <img
                   src="https://img.buymeacoffee.com/button-api/?text=Buy me a pizza&emoji=🍕&slug=adrinlol&button_colour=FF5F5F&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00"
                   alt="Buy me a pizza"
                 />
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>

@@ -5,6 +5,8 @@ import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
 import ContactContent from "../../content/ContactContent.json";
+import { Button } from "../../common/Button";
+import { Row } from "antd";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
 const MiddleBlock = lazy(() => import("../../components/MiddleBlock"));
@@ -29,6 +31,17 @@ const Home = () => {
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
+      {/* <iframe
+        src="https://lu.ma/crackdsa"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        allowFullScreen={false}
+        aria-hidden="false"
+        tabIndex={0}
+        style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
+
+      ></iframe> */}
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -37,6 +50,23 @@ const Home = () => {
         icon="graphs.svg"
         id="about"
       />
+      {/* <Row justify="center" align="middle">
+      <Button>
+        <a style={{color:"white"}} href="https://lu.ma/crackdsa" target="_blank">Explore Bootcamps</a>
+      </Button>
+      </Row> */}
+      <iframe
+        src="https://lu.ma/crackdsa"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        allowFullScreen={false}
+        aria-hidden="false"
+        tabIndex={0}
+        style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
+
+      ></iframe>
+      
       <ContentBlock
         type="right"
         title={MissionContent.title}
@@ -44,6 +74,11 @@ const Home = () => {
         icon="product-launch.svg"
         id="mission"
       />
+      <Row justify="center" align="middle">
+      <Button>
+        <a style={{color:"white"}} href="https://lu.ma/crackdsa" target="_blank">Explore Masterclasses</a>
+      </Button>
+      </Row>
       <ContentBlock
         type="left"
         title={ProductContent.title}
