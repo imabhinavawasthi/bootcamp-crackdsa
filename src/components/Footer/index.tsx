@@ -145,7 +145,7 @@ const Footer = ({ t }: any) => {
             </NavLink>
             <FooterContainer>
               <SocialLink
-                href="mailto:abhinav@crackdsa.com"
+                href="mailto:helloss@crackdsa.com"
                 src="gmail.svg"
               />
               <SocialLink
@@ -153,7 +153,7 @@ const Footer = ({ t }: any) => {
                 src="whatsapp.svg"
               />
               <SocialLink
-                href="https://www.linkedin.com/in/abhinavawasthi01/"
+                href="https://www.linkedin.com/company/crackdsa/"
                 src="linkedin.svg"
               />
               <SocialLink
