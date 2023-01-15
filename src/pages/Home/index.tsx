@@ -61,15 +61,12 @@ const Home = () => {
         icon="graphs.svg"
         id="about"
       />
-      {/* <Row justify="center" align="middle">
-      <Button>
-        <a style={{color:"white"}} href="https://lu.ma/crackdsa" target="_blank">Explore Bootcamps</a>
-      </Button>
-      </Row> */}
+      <Row justify="center" align="middle">
+      <h3>Upcoming Sessions</h3>
       <iframe
-        src="https://lu.ma/crackdsa"
+        src="https://lu.ma/embed-events/usr-bN7GXGXTMNgeuQq"
         width="100%"
-        height="600"
+        height="230"
         frameBorder="0"
         allowFullScreen={false}
         aria-hidden="false"
@@ -77,6 +74,9 @@ const Home = () => {
         style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
 
       ></iframe>
+      </Row>
+      
+      
 
       <ContentBlock
         type="right"
