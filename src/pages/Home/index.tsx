@@ -26,6 +26,7 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
+
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
@@ -42,6 +43,16 @@ const Home = () => {
         style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
 
       ></iframe> */}
+      <iframe
+        src="https://lu.ma/embed-checkout/evt-nsiCjDl42pqNlAo"
+        width="100%"
+        height="550"
+        frameBorder="0"
+        style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
+        allowFullScreen={false}
+        aria-hidden="false"
+        tabIndex={0}
+      ></iframe>
       <ContentBlock
         type="left"
         title={AboutContent.title}
@@ -66,7 +77,7 @@ const Home = () => {
         style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
 
       ></iframe>
-      
+
       <ContentBlock
         type="right"
         title={MissionContent.title}
@@ -75,9 +86,9 @@ const Home = () => {
         id="mission"
       />
       <Row justify="center" align="middle">
-      <Button>
-        <a style={{color:"white"}} href="https://lu.ma/crackdsa" target="_blank">Explore Masterclasses</a>
-      </Button>
+        <Button>
+          <a style={{ color: "white" }} href="https://lu.ma/crackdsa" target="_blank">Explore Masterclasses</a>
+        </Button>
       </Row>
       <ContentBlock
         type="left"
