@@ -43,7 +43,7 @@ const Home = () => {
         style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
 
       ></iframe> */}
-      <iframe
+      {/* <iframe
         src="https://lu.ma/embed-checkout/evt-nsiCjDl42pqNlAo"
         width="100%"
         height="550"
@@ -52,7 +52,7 @@ const Home = () => {
         allowFullScreen={false}
         aria-hidden="false"
         tabIndex={0}
-      ></iframe>
+      ></iframe> */}
       <ContentBlock
         type="left"
         title={AboutContent.title}
