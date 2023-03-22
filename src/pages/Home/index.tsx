@@ -26,23 +26,23 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-
-      <MiddleBlock
-        title={MiddleBlockContent.title}
-        content={MiddleBlockContent.text}
-        button={MiddleBlockContent.button}
-      />
       <iframe
         id="gdscportfolio"
         src="https://lu.ma/embed-checkout/evt-zQtOj6MxKuQXsdi"
         width="100%"
         height="600"
         frameBorder="0"
-        style={{border: "1px solid #bfcbda88", borderRadius: "4px"}}
+        style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
         allowFullScreen={false}
         aria-hidden="false"
         tabIndex={0}
       ></iframe>
+      <MiddleBlock
+        title={MiddleBlockContent.title}
+        content={MiddleBlockContent.text}
+        button={MiddleBlockContent.button}
+      />
+
       {/* <iframe
         src="https://lu.ma/crackdsa"
         width="100%"
