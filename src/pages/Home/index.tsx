@@ -32,6 +32,17 @@ const Home = () => {
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
       />
+      <iframe
+        id="gdscportfolio"
+        src="https://lu.ma/embed-checkout/evt-zQtOj6MxKuQXsdi"
+        width="100%"
+        height="600"
+        frameBorder="0"
+        style={{border: "1px solid #bfcbda88", borderRadius: "4px"}}
+        allowFullScreen={false}
+        aria-hidden="false"
+        tabIndex={0}
+      ></iframe>
       {/* <iframe
         src="https://lu.ma/crackdsa"
         width="100%"
@@ -62,21 +73,21 @@ const Home = () => {
         id="about"
       />
       <Row justify="center" align="middle">
-      <h3>Upcoming Sessions</h3>
-      <iframe
-        src="https://lu.ma/embed-events/usr-bN7GXGXTMNgeuQq"
-        width="100%"
-        height="230"
-        frameBorder="0"
-        allowFullScreen={false}
-        aria-hidden="false"
-        tabIndex={0}
-        style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
+        <h3>Upcoming Sessions</h3>
+        <iframe
+          src="https://lu.ma/embed-events/usr-bN7GXGXTMNgeuQq"
+          width="100%"
+          height="230"
+          frameBorder="0"
+          allowFullScreen={false}
+          aria-hidden="false"
+          tabIndex={0}
+          style={{ border: "1px solid #bfcbda8", borderRadius: "4px" }}
 
-      ></iframe>
+        ></iframe>
       </Row>
-      
-      
+
+
 
       <ContentBlock
         type="right"
