@@ -27,8 +27,7 @@ const Home = () => {
         id="intro"
       />
       <iframe
-        id="gdscportfolio"
-        src="https://lu.ma/embed-checkout/evt-zQtOj6MxKuQXsdi"
+        src="https://lu.ma/embed-checkout/evt-3tjoViBrO2pgLNb"
         width="100%"
         height="600"
         frameBorder="0"
